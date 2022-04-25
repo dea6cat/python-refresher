@@ -16,6 +16,7 @@ print(username_mapping["Bob"])  # (0, "Bob", "password")
 
 username_input = input("Enter your username: ")
 password_input = input("Enter your password: ")
+print(username_mapping[username_input])
 
 _, username, password = username_mapping[username_input]
 
